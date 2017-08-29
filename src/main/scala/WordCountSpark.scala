@@ -3,7 +3,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object WordCountSpark {
 
   def main(args: Array[String]){
-    println("Hello huj, ahuenna")
+    println("Hello world")
     val sc = new SparkContext(new SparkConf().setAppName("wordCount").setMaster("local"))
     //get threshold
     val threshold = args(1).toInt
